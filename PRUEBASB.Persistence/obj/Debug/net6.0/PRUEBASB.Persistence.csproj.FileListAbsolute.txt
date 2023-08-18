@@ -1,0 +1,15 @@
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\bin\Debug\net6.0\PRUEBASB.Persistence.deps.json
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\bin\Debug\net6.0\PRUEBASB.Persistence.dll
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\bin\Debug\net6.0\PRUEBASB.Persistence.pdb
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\bin\Debug\net6.0\PRUEBASB.Domain.dll
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\bin\Debug\net6.0\PRUEBASB.Domain.pdb
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.AssemblyInfo.cs
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.csproj.CopyComplete
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.dll
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\refint\PRUEBASB.Persistence.dll
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\PRUEBASB.Persistence.pdb
+C:\Users\carlo\source\repos\PRUEBASB\PRUEBASB.Persistence\obj\Debug\net6.0\ref\PRUEBASB.Persistence.dll

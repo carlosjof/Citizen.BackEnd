@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "n5fTxqV0mOkm4wXATZSRGqOrElX7M9hDSNdHkuAWkXwendSsL/nEl7q4y2qoAEFYkD5FKdMm06zNQY4OGkMwyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PRUEBASB\\PRUEBASB.Application\\PRUEBASB.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\fluentvalidation\\11.7.0\\fluentvalidation.11.7.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
