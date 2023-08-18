@@ -38,6 +38,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<CINValidator>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+var jwtSecretKey = builder.Configuration["GoogleKey:SecretKey"];
 
 builder.Services.AddAuthentication(options =>
 {
@@ -53,7 +54,7 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         ValidIssuer = "https://localhost:7130",
         ValidAudience = "https://localhost:7130",
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("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"))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSecretKey))
     };
 });
 

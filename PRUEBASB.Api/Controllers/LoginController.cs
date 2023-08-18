@@ -16,10 +16,12 @@ namespace PRUEBASB.Api.Controllers
     public class LoginController : ControllerBase
     {
         private readonly Dictionary<string, (string HashedPassword, byte[] Salt)> _userDataBase;
+        private readonly IConfiguration _configuration;
 
-        public LoginController()
+        public LoginController(IConfiguration configuration)
         {
             _userDataBase = new Dictionary<string, (string, byte[])>();
+            _configuration = configuration;
         }
 
         [AllowAnonymous]
@@ -30,7 +32,6 @@ namespace PRUEBASB.Api.Controllers
             {
                 var payload = GoogleJsonWebSignature.ValidateAsync(tokenRequest.JWTAuthinticate, new GoogleJsonWebSignature.ValidationSettings()).Result;
 
-                // Aquí puedes acceder a información del usuario, por ejemplo:
                 string userId = payload.Subject;
                 string userEmail = payload.Email;
 
@@ -40,7 +41,7 @@ namespace PRUEBASB.Api.Controllers
                     new Claim(ClaimTypes.Role, "guest")
                 };
 
-                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("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"));
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["GoogleKey:SecretKey"]));
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
                 var token = new JwtSecurityToken(
@@ -79,7 +80,7 @@ namespace PRUEBASB.Api.Controllers
                     new Claim(ClaimTypes.Role, "admin")
                 };
 
-                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("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"));
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["GoogleKey:SecretKey"]));
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
                 var token = new JwtSecurityToken(
